@@ -20,13 +20,13 @@
 ## SWBATs
 
 - [ ]  Create a Virtual Env with `pipenv` and install dependencies
-    pipenv --python 3.8.13
+   1.  pipenv --python 3.8.13
 - [ ]  Initialize migrations with `alembic`
-    pipenv --python 3.8.13
+    3. alembic init migrations
 - [ ]  Configure `alembic` to work with our DB
-    pipenv install alembic sqlachemy
+    2. pipenv install alembic sqlachemy
 - [ ]  Create a schema and migrate the DB
-    
+
 - [ ]  Use migrations to:
     - create/drop tables
     - rename tables
